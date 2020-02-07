@@ -18,31 +18,31 @@ class HomePage extends React.Component {
   render() {
     return (
       <MDBContainer>
-      <MDBRow>
-      <MDBCol>
-      <MDBCard>
-      <MDBCardBody className="p-5">
-      <div style={{ textAlign: 'left' }}>
-        <h1 class="py-3">
-          Hello there!
-        </h1>
+        <MDBRow>
+          <MDBCol>
+            <MDBCard>
+              <MDBCardBody className="p-5">
+                <div style={{ textAlign: 'left' }}>
+                  <h1 class="py-3">
+                    Hello there!
+                  </h1>
 
-        <MDBNavLink
-          tag='MDBBtn'
-          to='./page1'
-          className='btn btn-primary btn-lg btn-rounded d-inline'
-          onClick={this.scrollToTop}
-        >
-          Get Started
-        </MDBNavLink>
-      </div>
-      </MDBCardBody>
-      </MDBCard>
-      </MDBCol>
-      </MDBRow>
+                  <MDBNavLink
+                    tag='MDBBtn'
+                    to='./page1'
+                    className='btn btn-primary btn-lg btn-rounded d-inline'
+                    onClick={this.scrollToTop}
+                  >
+                    Get Started
+                  </MDBNavLink>
+                </div>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCol>
+        </MDBRow>
       </MDBContainer>
-  );
-}
+    );
+  }
 }
 
 export default HomePage;
